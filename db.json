@@ -1,19 +1,52 @@
 {
-  "posts": [
+  "tasks": [
     {
       "id": 1,
-      "title": "json-server",
-      "author": "typicode"
-    }
-  ],
-  "comments": [
+      "taskname": "cooking appliances",
+      "createdate": "01/02/2022",
+      "duedate": "03/03/2022",
+      "assignee": "bibhu",
+      "category": "NAP Dev",
+      "status": "ON HOLD",
+      "jiraid": "NPA-9994",
+      "mockup": "link",
+      "notes": "this project is heigher priority"
+    },
     {
-      "id": 1,
-      "body": "some comment",
-      "postId": 1
+      "id": 2,
+      "taskname": "home appliances",
+      "createdate": "01/02/2022",
+      "duedate": "03/03/2022",
+      "assignee": "bibhu",
+      "category": "NAP Dev",
+      "status": "ON HOLD",
+      "jiraid": "NPA-9994",
+      "mockup": "link",
+      "notes": "this project is medium priority"
+    },
+    {
+      "id": 3,
+      "taskname": "bedroom appliances",
+      "createdate": "01/02/2022",
+      "duedate": "03/03/2022",
+      "assignee": "bibhu",
+      "category": "NAP Dev",
+      "status": "ON HOLD",
+      "jiraid": "NPA-9994",
+      "mockup": "link",
+      "notes": "this project is lower priority"
+    },
+    {
+      "id": 4
+    },
+    {
+      "id": 5
+    },
+    {
+      "id": 6
+    },
+    {
+      "id": 7
     }
-  ],
-  "profile": {
-    "name": "typicode"
-  }
+  ]
 }

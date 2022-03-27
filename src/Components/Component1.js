@@ -14,22 +14,28 @@ function Component1() {
         height:'100vh',
         backgroundRepeat: 'no-repeat',
         margin: '10px',
+        padding:'20px'
     
       }}>
-        <h2 className='firstHead'
+        <h3 className='firstHead'
             style={{
             paddingTop:'30px',
-            textAlign:'center',}}>
+            textAlign:'center',
+            animation:' article-load 500ms ease-in'
+            }}>
         Lorem, ipsum dolor sit amet consectetur adipisicing elit
-        </h2>  
-        <h4 className='heading4.1'
+        </h3>  
+        <h5 className='heading4.1'
             style={{
             textAlign:'center',
+            padding:'20px',
+            margin:'20px',
+            animation:'ease-out'
         
         }}>
         Lorem, ipsum dolor sit amet consectetur adipisicing elit. Molestias aut, repellat ipsum facere voluptate dicta obcaecati deserunt nobis suscipit eaque?Molestias aut, repellat ipsum facere voluptate dicta obcaecati deserunt nobis suscipit eaque?Molestias aut, repellat ipsum facere voluptate dicta obcaecati deserunt nobis suscipit eaque?
 
-        </h4>
+        </h5>
     </div>
 
 <div className='heading'  style={{
@@ -39,24 +45,25 @@ function Component1() {
     height:'100vh',
     backgroundRepeat: 'no-repeat',
     margin: '10px',
+    paddingTop:'30px'
 
   }}>
-    <h2 className='heading2.2'
+    <h3 className='heading2.2'
         style={{
-        paddingTop:'100px',
+        paddingTop:'30px',
         paddingRight:'200px',
         paddingLeft:'450px',
         textAlign:'right',}}>
     Lorem, ipsum dolor sit amet consectetur adipisicing elit
-    </h2>  
-    <h4 className='heading4.2'
+    </h3>  
+    <h5 className='heading4.2'
         style={{
         textAlign:'right',
         paddingLeft:'450px',
         paddingRight:'200px'    
     }}>
     Lorem, ipsum dolor sit amet consectetur adipisicing elit. Molestias aut, repellat ipsum facere voluptate dicta obcaecati deserunt nobis suscipit eaque? Molestias aut, repellat ipsum facere voluptate dicta obcaecati deserunt nobis suscipit eaque? Molestias aut, repellat ipsum facere voluptate dicta obcaecati deserunt nobis suscipit eaque?
-    </h4>
+    </h5>
 </div>
 </div>
  

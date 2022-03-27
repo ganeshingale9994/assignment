@@ -9,23 +9,27 @@ import { Link } from "react-router-dom";
 function Table1() {
 
   const [tasks, setTask] = useState([])
-  const [loading, setLoading] = useState(false);
+//   const [loading, setLoading] = useState(false);
  
 
- useEffect(()=>{
+//  useEffect(()=>{
    
-    setLoading(true);
+//     setLoading(true);
 
-    const result = axios.get("http://localhost:3005/tasks")
-    .then(function(response){
-      console.log(response.tasks);
-    });
-    setTask(result.tasks);
-},[]);
+//     const result = axios.get("http://localhost:3005/tasks")
+//     .then(function(response){
+//       console.log(response.tasks);
+//     });
+//     console.log(result);
+//     setTask(result);
+// },[]);
 
-  if(loading) {
-    return <p>Data is loading..</p>
-  }
+//   if(loading) {
+//     return <p>Data is loading..</p>
+//   }
+//   else{
+    
+//   }
 
   return (
     <div>
